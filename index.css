@@ -13,24 +13,12 @@ h1 {
     font-family: "raleway", sans-serif;
     font-weight: bold;
 }
-a {text-decoration: none}
+
 div.head {
     background-color: rgba(255, 255, 255, 0.55);
     backdrop-filter: blur(5px);
     padding: 5px;
     margin: 2px;
-    display: block;
-    border: solid white;
+    display: flex;
 
 }
-
-li {
-    list-style: none;
-    font-family: "raleway", sans-serif;
-    font-weight: normal;
-    padding: 0 15px;
-    float: right;
-    text-align: right;
-    background: aqua;
-}
-
