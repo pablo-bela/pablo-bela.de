@@ -20,5 +20,12 @@ div.head {
     padding: 5px;
     margin: 2px;
     display: flex;
+    border: none;
+    border-radius: 5px;
+}
 
+.rechts {
+    float: right;
+    text-align: right;
+    padding-left: 75%;
 }
