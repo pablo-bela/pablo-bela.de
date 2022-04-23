@@ -9,9 +9,9 @@ html {
     background-image: url("https://unsplash.it/1920/1080");
 }
 
-h1 {
-    font-family: "raleway", sans-serif;
-    font-weight: bold;
+#landing {
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -29,6 +29,7 @@ h1 {
     float: left;
     color: black;
     padding: 12px;
+    margin: 10px;
     text-decoration: none;
     font-size: 30px;
     font-weight: bold;
