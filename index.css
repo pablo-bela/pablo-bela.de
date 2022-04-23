@@ -14,18 +14,24 @@ h1 {
     font-weight: bold;
 }
 
-div.head {
+header{
     background-color: rgba(255, 255, 255, 0.55);
     backdrop-filter: blur(5px);
     padding: 5px;
     margin: 2px;
-    display: flex;
     border: none;
     border-radius: 5px;
 }
 
+
 .rechts {
     float: right;
-    text-align: right;
-    padding-left: 75%;
+}
+
+.rechts a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: "raleway", sans-serif;
+    font-weight: lighter;
 }
