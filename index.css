@@ -38,14 +38,32 @@ hr {
 }
 
 .sets {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    width: 90vw;
     border: none;
     border-radius: 10px;
     padding: 20px;
-    float: left;
+    margin: 10px;
+
+    overflow: hidden;
+}
+.headl {
     text-decoration: none;
+    color: black;
     font-weight: bold;
     font-size: 30px;
+    float: left;
+    padding: 10px;
+}
+.headr a{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    font-size: 30px;
+    float: right;
+    padding: 10px;
+}
+
+.headr a:hover {
+    text-decoration: underline 1px;
 }
