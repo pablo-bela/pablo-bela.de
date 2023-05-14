@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "raleway", sans-serif;
+    font-family: "quicksand", sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
     text-decoration: underline 1px #8200ff;
 }
 hr {
-    background-color: black;
+    background-color: white;
     border: none;
     height: 3px;
     color: white;
@@ -21,13 +21,14 @@ hr {
 #Start {
     height: 100vh;
     width: 100vw;
-    background-image: url("Bilder/beach-2562563.jpg");
+    background-image: url("Bilder/moon-1859616.jpg");
+    background-size: 100%;
     background-attachment: fixed;
     background-position: center;
 }
 
 #About {
-    background: url("Bilder/moon-1859616.jpg") no-repeat;
+    background: url("Bilder/pexels-bess-hamiti-36487.jpg") no-repeat;
     background-size: cover;
     overflow: hidden;
     background-position: center;
@@ -164,7 +165,7 @@ hr {
 
 #Social button {
     font-size: 30px;
-    font-family: "Quicksand SemiBold", sans-serif;
+    font-family: "raleway semi-bold", sans-serif;
     background: none;
     color: white;
     border: white;
@@ -172,9 +173,18 @@ hr {
     border-radius: 10px;
     padding: 5px;
     margin: 20px;
+    display: flex;
 }
+
+#Social button img {
+    height: 30px;
+    width: 30px;
+
+}
+
 #Social button:hover{
     cursor: pointer;
+    border-style: dotted;
 }
 
 .profile {
