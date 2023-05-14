@@ -173,7 +173,7 @@ hr {
     border-radius: 10px;
     padding: 5px;
     margin: 20px;
-    display: flex;
+    display: inline-flex;
 }
 
 #Social button img {
