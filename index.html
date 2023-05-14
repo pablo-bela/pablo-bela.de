@@ -13,73 +13,106 @@
 
 </head>
 <body>
-    <section id="Start">
-        <div class="sets">
-        <a class="headl" href="#">Willkommen</a>
-            <div class="headr">
-                <a href="#Social">Social Media</a>
-                <a href="#Kontakt">Contact</a>
-                <a href="#About">About</a>
+<section id="Start">
+    <div class="header">
+        <a class="headl" href="#start">Willkommen</a>
+        <div class="headr">
+            <a href="#Kontakt">Contact</a>
+            <a href="#Social">Social Media</a>
+            <a href="#About">About</a>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<section id="About">
+    <div class="container">
+        <div class="card">
+            <img src="Bilder/coding-svgrepo-com.svg" alt="">
+            <p>Ich liebe es, zu programmieren. Ich beherrsche bereits CSS und HTML un lerne aktuell JavaScript und PHP. Dabei ist es stets mein Ziel, mich weiterzuentwickeln und möglichst viele neue Sprachen zu erlernen.</p>
+        </div>
+        <div class="card">
+            <img src="Bilder/education-svgrepo-com.svg" alt="">
+            <p>Zurzeit besuche ich die 11. Klasse eines Gymnasiums in Bayern. Meine Lieblingsfächer sind Sport und Geografie. Nach dem Abitur möchte ich etwas in die Richtung Informatik studieren. </p>
+        </div>
+        <div class="card">
+            <img src="Bilder/basketball-court-svgrepo-com.svg" alt="">
+            <p>Neben Videospielen spiele ich in meiner Freizeit gerne Basketball. Mein lieblings Verein ist der Fc Bayern Basketball. Mein Lieblingsspieler ist
+                <a target="_blank" href="https://de.wikipedia.org/wiki/Andreas_Obst">Andreas Obst</a>.</p>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<section id="Social">
+    <div class="container">
+        <div class="card">
+            <img src="Bilder/twitter-svgrepo-com.svg" alt="">
+            <p>Hier siehst du was ich retweete und wo ich meinen Senf dazu gebe ;)</p>
+            <a href="https://twitter.com/royal_miner" target="_blank">
+                <button>Twitter</button>
+            </a>
+        </div>
+        <div class="card">
+            <img src="Bilder/instagram-svgrepo-com.svg" alt="">
+            <p>Hier kannst du dir ein paar coole Bilder anschauen die ich gemacht habe.</p>
+            <a href="https://www.instagram.com/_royal_miner_/" target="_blank">
+                <button>Instagram</button>
+            </a>
+        </div>
+        <div class="card">
+            <img src="Bilder/tiktok-svgrepo-com.svg" alt="">
+            <p>Hier gibts eigentlich nichts spannendes, aber du kannst mir ja trotzdem mal folgen.</p>
+            <a href="https://www.tiktok.com/@royal_miner" target="_blank">
+                <button>TikTok</button>
+            </a>
+        </div>
+        <div class="card">
+            <img src="Bilder/spotify-svgrepo-com.svg" alt="">
+            <p>Hier kannst du dir richtig gute Playlists holen. Die meisten werden jede Woche aktualiesiert.</p>
+            <a href="https://open.spotify.com/user/8hag4vgtlmxrkfko6cdxs8rxc?si=139d762bc5994f30" target="_blank">
+                <button>Spotify</button>
+            </a>
+        </div>
+        <div class="card">
+            <img src="Bilder/github-svgrepo-com.svg" alt="">
+            <p>Manche Projekte die ich programmiert habe kannst du hier sehen. Nicht wirklich spannend wenn du dich damit nicht auskennst...</p>
+            <a href="https://github.com/RoyalMiner" target="_blank"><button>GitHub</button></a>
+        </div>
+
+    </div>
+</section>
+
+<hr>
+
+<section id="Kontakt">
+    <div class="formular">
+        <img class="profile" src="Bilder/profile-svgrepo-com.svg" alt="">
+        <form action="Formular.php">
+            <div class="untereinander">
+                <label for="Vorname"></label>
+                <input type="text" id="Vorname" name="vorname" placeholder="Vorname">
             </div>
-        </div>
-    </section>
-
-    <hr>
-
-    <section id="About">
-
-        <div class="card">
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div class="card">
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div class="card">
-            <img src="" alt="">
-            <p></p>
-        </div>
-
-    </section>
-
-
-    <section id="Social">
-        <div class="card">
-        <img src="" alt="">
-        <p></p>
-        </div>
-        <div class="card">
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div class="card">
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div class="card">
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div class="card">
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div class="card">
-            <img src="" alt="">
-            <p></p>
-        </div>
-    </section>
-
-
-    <section id="Kontakt">
-        <img src="" alt="">
-        <p></p>
-    </section>
+            <div class="untereinander">
+                <label for="Nachname"></label>
+                <input type="text" name="nachname" id="Nachname" placeholder="Nachname">
+            </div>
+            <div class="untereinander">
+                <label for="Anliegen"></label>
+                <textarea type="text" name="anliegen" id="Anliegen" placeholder="Was willst du mir mitteilen?"></textarea>
+            </div>
+            <div class="untereinander">
+                <input class="knopf" type="submit" value="Senden">
+            </div>
+        </form>
+    </div>
+</section>
 <hr>
 
 <div>
-    <p>Page created by Pablo Bela</p>
+    <p>Page created by Pablo Bela &copy</p>
 </div>
 
 </body>
