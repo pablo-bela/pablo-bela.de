@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/OneDrive - Landratsamt Freising/Website data/Vorlagen/.idea/Vorlagen.iml" filepath="$USER_HOME$/OneDrive - Landratsamt Freising/Website data/Vorlagen/.idea/Vorlagen.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pablo-bela.xyz.iml" filepath="$PROJECT_DIR$/.idea/pablo-bela.xyz.iml" />
     </modules>
   </component>

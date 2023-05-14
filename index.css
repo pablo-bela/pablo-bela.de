@@ -122,7 +122,6 @@ hr {
 
 .card {
     margin: 2.5%;
-
     width: 30%;
     border-radius: 10px;
     border: none;
@@ -151,6 +150,7 @@ hr {
     height: 90px;
     width: 90px;
     margin: 1%;
+    color: white;
 }
 
 .container {
