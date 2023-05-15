@@ -34,14 +34,14 @@ hr {
     background-position: center;
 }
 #Social {
-    background: url("Bilder/colorful-2174045.png") no-repeat;
-    background-size: cover;
+    background: url("Bilder/pexels-david-skyrius-2129796.jpg") no-repeat;
+    background-size: 100%;
     background-position: center;
 }
 
 #Kontakt {
-    background: rgb(255,0,0);
-    background: linear-gradient(245deg, rgba(255,0,0,1) 0%, rgba(0,37,255,1) 100%);
+    background: url("Bilder/highway-7511785.jpg");
+    background-size: 100%;
 }
 
 .header {
@@ -202,6 +202,7 @@ hr {
     border-radius: 10px;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -226,7 +227,7 @@ hr {
     border-radius: 10px;
     border: none;
     padding: 5px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.1);
 }
 .formular textarea {
     height: 15vh;
@@ -235,15 +236,19 @@ hr {
     border: none;
     border-radius: 10px;
     padding: 10px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .formular .knopf {
-    border: none;
+    border: solid 1px white;
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.1);
     height: 6vh;
     width: 10vw;
+    color: white;
+}
+.formular .knopf:hover {
+    border: dotted 1px white;
 }
 
 .formular input:not(.knopf):focus {outline: none;}
