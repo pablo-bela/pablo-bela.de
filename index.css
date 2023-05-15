@@ -22,7 +22,7 @@ hr {
     height: 100vh;
     width: 100vw;
     background-image: url("Bilder/moon-1859616.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
@@ -35,7 +35,7 @@ hr {
 }
 #Social {
     background: url("Bilder/pexels-david-skyrius-2129796.jpg") no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
 }
 
@@ -82,6 +82,11 @@ hr {
 
 
 @media screen and (max-width: 700px) {
+
+    #Start {
+        background: url("Bilder/Snapchat-1099113484.jpg");
+        background-attachment: local;
+    }
 
     #Kontakt {
         background: linear-gradient(rgb(0, 0, 255), rgb(0, 0, 0));
