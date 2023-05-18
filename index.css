@@ -41,7 +41,9 @@ hr {
 
 #Kontakt {
     background: url("Bilder/highway-7511785.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .header {
@@ -85,7 +87,9 @@ hr {
 
     #Start {
         background: url("Bilder/Snapchat-1099113484.jpg");
-        background-attachment: local;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #Kontakt {
@@ -95,7 +99,7 @@ hr {
         background: linear-gradient(rgb(106, 3, 95), rgb(0, 0, 255));
     }
     #About {
-        background: linear-gradient(rgb(255, 0, 0), rgb(106, 3, 95));
+        background: linear-gradient(rgb(0, 255, 235), rgb(106, 3, 95));
     }
     .headl {
         float: none;
