@@ -6,7 +6,6 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
     background-repeat: no-repeat;
-    text-decoration: none;
 }
 ::selection {
     text-decoration: underline 1px #8200ff;
@@ -29,37 +28,64 @@ hr {
 }
 
 #About {
-    height: 100vh;
-    width: 100vw;
     background: url("Bilder/pexels-bess-hamiti-36487.jpg") no-repeat;
     background-size: cover;
     overflow: hidden;
     background-position: center;
 }
 #Social {
-    height: 100vh;
-    width: 100vw;
     background: url("Bilder/pexels-david-skyrius-2129796.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 #Kontakt {
-    height: 100vh;
-    width: 100vw;
     background: url("Bilder/highway-7511785.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 1%;
+    overflow: hidden;
+    width: 98%;
+    z-index: 100;
+    position: fixed;
+}
+
+.headl {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+    padding: 10px;
+}
+
+
+.headr a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+    float: right;
+    padding: 10px;
+}
+
+.headr a:hover {
+    text-decoration: underline 1px;
+}
+
 
 @media screen and (max-width: 700px) {
 
     #Start {
         background: url("Bilder/Snapchat-1099113484.jpg");
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-attachment: local;
     }
 
     #Kontakt {
@@ -69,7 +95,7 @@ hr {
         background: linear-gradient(rgb(106, 3, 95), rgb(0, 0, 255));
     }
     #About {
-        background: linear-gradient(rgb(0, 255, 235), rgb(106, 3, 95));
+        background: linear-gradient(rgb(255, 0, 0), rgb(106, 3, 95));
     }
     .headl {
         float: none;
@@ -97,37 +123,6 @@ hr {
     .header {
         position: relative;
     }
-}
-
-.navbar {
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
-    border: none;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 1%;
-    overflow: hidden;
-    width: 98%;
-    z-index: 100;
-    position: fixed;
-    top: 0;
-}
-.navl {
-    float: left;
-    padding: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-}
-.navr {
-    float: right;
-    padding: 10px;
-    color: white;
-    font-weight: normal;
-    font-size: 30px;
-}
-.navr:hover {
-    text-decoration: underline 1px white;
 }
 
 
@@ -173,9 +168,7 @@ hr {
 }
 
 
-
-
-.card button {
+#Social button {
     font-size: 30px;
     font-family: "raleway semi-bold", sans-serif;
     background: none;
@@ -188,19 +181,16 @@ hr {
     display: inline-flex;
 }
 
-.card button img {
+#Social button img {
     height: 30px;
     width: 30px;
-    margin: 2px;
 
 }
 
-.card button:hover{
+#Social button:hover{
     cursor: pointer;
     border-style: dotted;
 }
-
-
 
 .profile {
     height: 500px;
