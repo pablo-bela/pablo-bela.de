@@ -1,0 +1,45 @@
+
+
+.card {
+    margin: 2.5%;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: "Quicksand Light", sans-serif;
+    transition-duration: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+.card a:hover {
+    text-decoration: underline 1px black;
+}
+.card img {
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+}
+
+.container {
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+    max-height: 100vh;
+}
+

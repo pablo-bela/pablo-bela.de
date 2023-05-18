@@ -6,6 +6,7 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
     background-repeat: no-repeat;
+    text-decoration: none;
 }
 ::selection {
     text-decoration: underline 1px #8200ff;
@@ -28,60 +29,29 @@ hr {
 }
 
 #About {
+    height: 100vh;
+    width: 100vw;
     background: url("Bilder/pexels-bess-hamiti-36487.jpg") no-repeat;
     background-size: cover;
     overflow: hidden;
     background-position: center;
 }
 #Social {
+    height: 100vh;
+    width: 100vw;
     background: url("Bilder/pexels-david-skyrius-2129796.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 #Kontakt {
+    height: 100vh;
+    width: 100vw;
     background: url("Bilder/highway-7511785.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
-.header {
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(5px);
-    border: none;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 1%;
-    overflow: hidden;
-    width: 98%;
-    z-index: 100;
-    position: fixed;
-}
-
-.headl {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-    float: left;
-    padding: 10px;
-}
-
-
-.headr a{
-    text-decoration: none;
-    color: white;
-    font-weight: normal;
-    font-size: 30px;
-    float: right;
-    padding: 10px;
-}
-
-.headr a:hover {
-    text-decoration: underline 1px;
-}
-
 
 @media screen and (max-width: 700px) {
 
@@ -129,6 +99,37 @@ hr {
     }
 }
 
+.navbar {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 1%;
+    overflow: hidden;
+    width: 98%;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+}
+.navl {
+    float: left;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.navr {
+    float: right;
+    padding: 10px;
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+}
+.navr:hover {
+    text-decoration: underline 1px white;
+}
+
 
 .card {
     margin: 2.5%;
@@ -172,7 +173,9 @@ hr {
 }
 
 
-#Social button {
+
+
+.card button {
     font-size: 30px;
     font-family: "raleway semi-bold", sans-serif;
     background: none;
@@ -185,16 +188,19 @@ hr {
     display: inline-flex;
 }
 
-#Social button img {
+.card button img {
     height: 30px;
     width: 30px;
+    margin: 2px;
 
 }
 
-#Social button:hover{
+.card button:hover{
     cursor: pointer;
     border-style: dotted;
 }
+
+
 
 .profile {
     height: 500px;
