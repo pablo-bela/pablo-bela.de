@@ -139,6 +139,8 @@ hr {
     color: white;
     font-family: "Quicksand Light", sans-serif;
     transition-duration: 0.5s;
+    align-content: center;
+    align-items: center;
 }
 
 .card:hover {
