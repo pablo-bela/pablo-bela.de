@@ -25,6 +25,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Optional: Weiterleitung nach dem Absenden
     header("Location: index.html");
     exit;
-    exit;
 }
 ?>
