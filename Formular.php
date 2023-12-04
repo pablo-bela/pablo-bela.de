@@ -22,6 +22,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // E-Mail senden
     mail($empfaenger, $betreff, $nachricht, $header);
 
+    // Optional: Weiterleitung nach dem Absenden
+    header("Location: index.html");
+    exit;
     exit;
 }
 ?>
