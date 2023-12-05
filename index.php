@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <section id="Kontakt">
     <div class="formular">
         <img class="profile" src="Bilder/person-border-svgrepo-com.svg" alt="">
-        <form action="index.php">
+        <form action="">
             <div class="untereinander">
                 <label for="Vorname"></label>
                 <input type="text" id="Vorname" name="vorname" placeholder="Vorname">
