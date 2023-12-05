@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($empfaenger, $betreff, $nachricht, $header);
 
     // Optional: Weiterleitung nach dem Absenden
-    header("Location: index.html");
+    header("Location: index.php");
     exit;
 }
 ?>
