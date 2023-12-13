@@ -87,15 +87,17 @@ hr {
         background: url("Bilder/Snapchat-1099113484.jpg");
         background-attachment: local;
     }
+    #About {
+        background: linear-gradient(rgb(255, 0, 0), rgb(106, 3, 95));
+
+    #Social {
+            background: linear-gradient(rgb(106, 3, 95), rgb(0, 0, 255));
+        }
 
     #Kontakt {
         background: linear-gradient(rgb(0, 0, 255), rgb(0, 0, 0));
     }
-    #Social {
-        background: linear-gradient(rgb(106, 3, 95), rgb(0, 0, 255));
-    }
-    #About {
-        background: linear-gradient(rgb(255, 0, 0), rgb(106, 3, 95));
+
     }
     .headl {
         float: none;
@@ -113,7 +115,7 @@ hr {
     }
     body
     .card {
-        width: 99%;
+        max-width: 99%;
     }
     body
     .formular .knopf {
